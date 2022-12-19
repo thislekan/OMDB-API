@@ -1,0 +1,33 @@
+.pagination {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  height: 5rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 5;
+
+  &__seek {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 17rem;
+
+    input {
+      width: 4rem;
+      height: 3rem;
+      text-align: center;
+      background-color: white;
+      border: 1px solid gainsboro;
+    }
+
+    button {
+      width: 5rem;
+      height: 3rem;
+      background-color: white;
+      border: 1px solid gainsboro;
+    }
+  }
+}

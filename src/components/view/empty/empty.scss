@@ -1,0 +1,33 @@
+.empty {
+  margin: 2rem 0;
+  &__wrapper {
+    &__content {
+      border: 1px solid #dfdfdf;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 25rem;
+      border-radius: 1rem;
+      padding: 1rem;
+      width: 25rem;
+
+      .poster {
+        height: 20rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      .instruction {
+        margin: 1rem 0 0 0;
+      }
+    }
+  }
+}

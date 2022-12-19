@@ -1,0 +1,26 @@
+@import "./view/empty/empty.scss";
+@import url("./pagination/pagination.scss");
+@import url("./search/search.scss");
+@import url("./view/tiles/tiles.scss");
+@import url("./spinner/spinner.scss");
+@import url("./exceptions/exception.scss");
+@import url("./view/modal/modal.scss");
+@import url("./search/suggestions/suggestions.scss");
+
+.App {
+  padding: 2rem;
+  height: 100vh;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    overflow-y: auto;
+
+    .app-title {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  }
+}
