@@ -31,5 +31,6 @@
 - the focus was on functionality
 - the cache feature might be buggy
 - tests (not enough test was written)
+- hide api key with dotEnv
 
 ---
