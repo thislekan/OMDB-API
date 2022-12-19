@@ -23,7 +23,7 @@ export const SingleTile = ({
         try {
           const encodedTerm = encodeURIComponent(idFromCache);
           const response = await fetch(
-            `http://www.omdbapi.com/?apikey=c05820ad&t=${encodedTerm}`
+            `https://www.omdbapi.com/?apikey=c05820ad&t=${encodedTerm}`
           );
           const data = await response.json();
           if (data) setData(data);

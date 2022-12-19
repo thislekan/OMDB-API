@@ -23,7 +23,7 @@ export const useSearchMovies = () => {
     try {
       const encodedTerm = encodeURIComponent(value);
       const response = await fetch(
-        `http://www.omdbapi.com/?apikey=c05820ad&s=${encodedTerm}&page=${pageCount}`
+        `https://www.omdbapi.com/?apikey=c05820ad&s=${encodedTerm}&page=${pageCount}`
       );
       const result = await response.json();
       setIsFetching && setIsFetching(false);
